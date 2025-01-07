@@ -1,6 +1,10 @@
 #Overview
 freeme.py is a Python script designed to block distracting websites by modifying the Windows hosts file. The script provides a web-based interface to control blocking and includes features like unblocking YouTube temporarily. It automatically restores the original hosts file when terminated and limits the number of unblocks to help maintain focus.
 
+Install and run: winget install --id Python.Python.3 -e --source winget && winget install --id Git.Git -e --source winget && python -m pip install flask --quiet && git clone https://github.com/kekvult/site_blocker.git && cd site_blocker && pythonw site_blocker.py
+
+
+
 #Features
 Automatic Elevation: Automatically requests admin privileges (UAC prompt) when needed.
 Site Blocking: Blocks an extended list of distracting websites (e.g., YouTube, Reddit, Instagram, etc.).
