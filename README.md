@@ -7,5 +7,4 @@
 Run the following command in **PowerShell** or **Command Prompt** to install dependencies, clone the repository, and run the script:
 
 ```powershell
-winget install --id Python.Python.3 -e --source winget; winget install --id Git.Git -e --source winget; python -m pip install flask --quiet; git clone https://github.com/kekvult/site_blocker.git; cd site_blocker; pythonw site_blocker.py
-
+winget install --id Python.Python.3 -e --source winget; winget install --id Git.Git -e --source winget; python -m pip install flask --quiet; & "C:\Program Files\Git\cmd\git.exe" clone https://github.com/kekvult/site_blocker.git; cd site_blocker; python freeme.py
